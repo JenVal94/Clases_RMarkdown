@@ -9,3 +9,6 @@
 
 #Multiplicacion 
 15*5
+
+#División 
+80/4
