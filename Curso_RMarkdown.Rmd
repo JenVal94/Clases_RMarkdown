@@ -1,6 +1,6 @@
 ---
 title: "Curso_RMarkdown"
-output: html_document
+output: pdf_document
 date: "2023-07-22"
 editor_options: 
   markdown: 
@@ -73,6 +73,10 @@ vi;etas necesita el menos con 3 espacios #Insertar imagenes
 la pag web del NewDimensions es <https://newdimensions.academy/> tambien
 puedes ingresar haciendo click [aqui](https://newdimensions.academy/)
 
-###  subtitulos 
+### sub- subtitulos
 
+## crear reportes de RMarkdown 
+tinytex::install_tinytex()
+
+se crea RMarkdown file tipo pdf y se agrega la data y el script y  se da click en knit donde se crea el archivo, luego lo puedo regresar a html y es facil de cambiar el archivo final 
 
