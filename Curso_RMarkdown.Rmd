@@ -7,7 +7,7 @@ editor_options:
     wrap: 72
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include=FALSE, echo= FALSE, message=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
@@ -82,3 +82,31 @@ se crea RMarkdown file tipo pdf y se agrega la data y el script y  se da click e
 
 puedo crear mis propios chunks espacios de color con tres apostrofes llaves y r, le puedo dar un nombre al chunk como yo quisiera 
 
+```{r data analisis inicial y grafico, echo=TRUE}
+
+library(openxlsx)
+library(tidyverse)
+
+data_banco
+
+ggplot(data_banco, aes(x= Tiempo_Servicio_seg))+
+  geom_histogram(aes(fill=Sucursal))
+
+summary(base_1)
+```
+
+el primer chunk hace la configuracion general del documento si pongo echo true al inicio ningun chunk del documento se me muestra
+si no quiero que se me muestren mensajes de advertencia coloco en el chunk dentro de las llaves message= FALSE 
+
+```{r CONFIGURACIONES DEL GRAFICO, fig.width=4, fig.align='default'}
+
+library(openxlsx)
+library(tidyverse)
+
+data_banco
+
+ggplot(data_banco, aes(x= Tiempo_Servicio_seg))+
+  geom_histogram(aes(fill=Sucursal))
+
+summary(base_1)
+```
