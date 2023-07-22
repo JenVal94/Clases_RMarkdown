@@ -110,3 +110,11 @@ ggplot(data_banco, aes(x= Tiempo_Servicio_seg))+
 
 summary(base_1)
 ```
+
+la media del monto fue `r format(mean(as.numeric(data_banco$Monto)), `
+
+de esta forma muestra el resultado sin mostrar el codigo
+
+##codigo LATEX 
+NO ENTENDI QUE ES DIJO Q SE NECESITAN 3 HORAS MAS DE MODULO 
+
