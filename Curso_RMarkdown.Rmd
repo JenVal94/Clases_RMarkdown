@@ -1,0 +1,65 @@
+---
+title: "Curso_RMarkdown"
+output: html_document
+date: "2023-07-22"
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax
+for authoring HTML, PDF, and MS Word documents. For more details on
+using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that
+includes both content as well as the output of any embedded R code
+chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to
+prevent printing of the R code that generated the plot.
+
+# Curso R Markdown
+
+Este es mi primer repositorio donde se almacena el codigo y los archicos
+del curso RMarckdowndel programa NewDimensions
+
+Este es el tercer parrafo
+
+Este es el cuarto parrafo sin espacio\
+
+los profesores del NewDimensions son:
+
+-   Diana
+-   Alex
+-   Angel
+-   Zulema
+-   Christian
+-   Denise
+-   Alonso
+
+Esta **palabra** esta en ngrita esta **tambien**
+
+La cursiva va con un solo *asterisco*
+
+***Necesito 3 asteriscos para que este en negrita y cursiva a la vez***
+
+Esto no funciona como un word tiene formas propias, para poner las vi;etas necesita el menos con 3 espacios 
+
