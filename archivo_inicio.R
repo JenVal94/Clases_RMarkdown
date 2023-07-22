@@ -12,3 +12,13 @@
 
 #División 
 80/4
+
+#instalar paquetes ... mensaje de alerta esta version no es la ideal 
+install.packages("tydiverse")
+
+#instalar paquetes 
+install.packages("dplyr")
+
+#cargar paquetes--library parentesis y sin comillas xq ya es parte del sistema se instala una sola vez siempre
+# que se abre R se carga el paquete
+library(tidyverse)

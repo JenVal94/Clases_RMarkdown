@@ -61,5 +61,7 @@ La cursiva va con un solo *asterisco*
 
 ***Necesito 3 asteriscos para que este en negrita y cursiva a la vez***
 
-Esto no funciona como un word tiene formas propias, para poner las vi;etas necesita el menos con 3 espacios 
+Esto no funciona como un word tiene formas propias, para poner las
+vi;etas necesita el menos con 3 espacios #Insertar imagenes
 
+![](imagenes/agricultor.png)
