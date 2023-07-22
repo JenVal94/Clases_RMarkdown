@@ -68,3 +68,8 @@ vi;etas necesita el menos con 3 espacios #Insertar imagenes
 
 ![agricultura](imagenes/agricultura.png)
 
+##Como poner links
+
+la pag web del NewDimensions es <https://newdimensions.academy/> tambien
+puedes ingresar haciendo click [aqui](https://newdimensions.academy/)
+
